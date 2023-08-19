@@ -1,0 +1,25 @@
+<<<<<<< HEAD
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a:first-child {
+    margin-right: auto;
+  }
+
+  a:last-child {
+    margin-left: 10px;
+  }
+}
+=======
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+>>>>>>> e15b853 (Fixed connection API)

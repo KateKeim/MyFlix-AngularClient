@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+<mat-toolbar>
+    <a mat-button (click)="toMovies()" target="_blank">myFlix</a>
+    <button mat-icon-button matTooltip="Profile" aria-label="Profile icon-button" (click)="toProfile()">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+    <button mat-icon-button matTooltip="Log Out" (click)="logOut()" aria-label="Logout icon-button">
+      <mat-icon>logout</mat-icon>
+    </button>
+  </mat-toolbar>
+=======
+<mat-toolbar class="navbar">
+    <a routerLink="/movies">
+      <h2 style="margin-right: 10px;">myFlix App</h2>
+    </a>
+    <span class="example-spacer"></span>
+    <a routerLink="/profile">Profile</a>
+    <button mat-icon-button aria-label="Logout" (click)="logoutUser()">
+      <mat-icon>exit_to_app</mat-icon>
+    </button>
+  </mat-toolbar>
+>>>>>>> e15b853 (Fixed connection API)
